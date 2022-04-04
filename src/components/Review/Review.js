@@ -1,11 +1,14 @@
-import React from 'react';
+
+import './Review.css';
 
 const Review = () => {
+    
     return (
-        <div>
-            <h2 className='text-5xl'>this is review page...</h2>
+        <div className='review-container'>
+            <h2 className='text-center text-5xl text-cyan-500 mt-5'>Our Customer says!!</h2>
+
         </div>
     );
 };
 
-export default Review;<h2>this is review page...</h2>
+export default Review;

@@ -1,0 +1,38 @@
+[
+    {
+        "name": "millat",
+        "Ratting" : 5,
+        "comment": "this is very comfortable vehicle",
+        "image" : "https://static.toiimg.com/thumb/msid-60256603/60256603.jpg"
+        
+        
+    },
+    {
+        "name": "zilani",
+        "comment": "this is amazing vehicle",
+        "Ratting": 4,
+        "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGlbCdQT_Rl0A8-MP_qOR_8fKkvyxNGKo6DA&usqp=CAU"
+    
+    },
+    {
+        "name": "Devid",
+        "comment": "Just awesome, i am soo happy buy it.",
+        "Ratting": 5
+    },
+    {
+        "name": "John",
+        "comment": "soo comfortable and best for family tour.",
+        "Ratting": 5
+    },
+    {
+        "name": "Milar",
+        "comment": "one of the best choice for summer vacation.",
+        "Ratting": 4
+    },
+    {
+        "name": "Borzah yankey",
+        "comment": "this vehicle is very poweful and comfortable",
+        "Ratting": 5
+    }
+    
+]

@@ -2,13 +2,14 @@ import React from 'react';
 import UseReview from '../../Hooks/UseReview';
 import HomeReview from '../HomeReview/HomeReview';
 import './Home.css'
+import { useNavigate } from 'react-router-dom';
 
 
 
 
 const Home = () => {
     const [reviews, setReviews] = UseReview();
-    
+    const navigate = useNavigate();
 
     return (
         <div>
@@ -37,7 +38,7 @@ const Home = () => {
                 </div>
             </div>
             <div className='mb-10 mt-0 text-center'>
-            <button className='ReviewBtn'>View all Review</button>
+            <button onClick={()=> navigate('/review')} className='ReviewBtn'>View all Review</button>
             </div>
         </div>
     );

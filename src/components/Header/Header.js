@@ -8,9 +8,7 @@ const Header = () => {
         <div>
             
           <div className='Link'>
-              <NavLink
-                className={({isActive}) => (isActive ? 'active-link' : 'link')} to='/home'
-              ></NavLink>
+              
               <Link className='mr-8' to='/'>Home</Link>
               <Link className='mr-8' to='/review'>Review</Link>
               <Link className='mr-8' to='/dashboard'>Dashboard</Link>

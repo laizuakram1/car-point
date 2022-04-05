@@ -1,6 +1,6 @@
 import React from 'react';
 import './HomeReview.css'
-import { StarIcon } from '@heroicons/react/solid'
+
 
 const HomeReview = ({review}) => {
     const {name, comment, Ratting, image} = review;
@@ -11,6 +11,7 @@ const HomeReview = ({review}) => {
             <p>{comment}</p>
             <p className='font-medium'>Rattings: {Ratting} star</p>
         </div>
+        
     );
 };
 

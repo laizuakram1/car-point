@@ -11,7 +11,10 @@ const Review = () => {
             <h2 className='text-center text-3xl text-blue-500 mt-6 mb-10'>Our Customer says!!</h2>
             <div className='grid gap-3 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4'>
                 {
-                    reviews.map(review => <ReviewPage review={review}></ReviewPage>)
+                    reviews.map(review => <ReviewPage
+                        key={review.id} 
+                        review={review}
+                         ></ReviewPage>)
                 }
             </div>
 

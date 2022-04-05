@@ -28,7 +28,10 @@ const Home = () => {
                 <h2 className='text-center text-4xl mb-4'> Our Client Say!</h2>
                 <div className='grid gap-0 grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
                     {
-                        reviews.slice(0, 3).map(review => <HomeReview review={review}></HomeReview>)
+                        reviews.slice(0, 3).map(review => <HomeReview 
+                            key={review.id}
+                            review={review}
+                            ></HomeReview>)
                     }
                 </div>
             </div>

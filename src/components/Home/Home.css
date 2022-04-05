@@ -33,3 +33,19 @@
     border:2px solid black;
 
 }
+.ReviewBtn{
+    width:200px;
+    background-color: orange;
+    border:none;
+    border-radius: 10px;
+    padding:10px;
+    color:white;
+    font-size:20px;
+    transition:all 0.3s ease-in-out;
+  
+}
+.ReviewBtn:hover{
+    background-color:white;
+    color:black;
+    border:2px solid black;
+}

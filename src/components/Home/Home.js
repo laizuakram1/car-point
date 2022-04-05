@@ -24,7 +24,7 @@ const Home = () => {
                 </div>
 
             </div>
-            <div className='mb-16'>
+            <div className='mb-12'>
                 <h2 className='text-center text-4xl mb-4'> Our Client Say!</h2>
                 <div className='grid gap-0 grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
                     {
@@ -33,9 +33,12 @@ const Home = () => {
                             review={review}
                             ></HomeReview>)
                     }
+                    
                 </div>
             </div>
-
+            <div className='mb-10 mt-0 text-center'>
+            <button className='ReviewBtn'>View all Review</button>
+            </div>
         </div>
     );
 };

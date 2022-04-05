@@ -1,8 +1,12 @@
 # Laizu car point
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+live link: https://bespoke-dusk-95e1b9.netlify.app/
 
-## Available Scripts
+## Description
+. use react and javascript
+. css framework for tailwind
+. responsive
+. create chart
 
 In the project directory, you can run:
 

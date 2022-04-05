@@ -1,14 +1,14 @@
 import React from 'react';
 import UseReview from '../../Hooks/UseReview';
 import HomeReview from '../HomeReview/HomeReview';
-import Review from '../Review/Review';
-
 import './Home.css'
+
 
 
 
 const Home = () => {
     const [reviews, setReviews] = UseReview();
+    
 
     return (
         <div>

@@ -1,17 +1,10 @@
 import React, { useEffect, useState } from 'react';
-import { CartesianGrid, Line, LineChart, XAxis, YAxis } from 'recharts';
+import { CartesianGrid, Line, LineChart, Pie, PieChart, XAxis, YAxis } from 'recharts';
 
 
 
 const Dashboard = () => {
-    // const [charts, setCharts] = useState([])
-    // console.log(charts);
 
-    // useEffect(() => {
-    //     fetch("data.json")
-    //         .then(res => res.json())
-    //         .then(data => setCharts(data))
-    // }, [])
     const data = [
         {
             "month": "Mar",
@@ -50,15 +43,23 @@ const Dashboard = () => {
             "revenue": 61000
         }
     ]
-    
+
     return (
-        <div>
-             <LineChart width={600} height={300} data={data} margin={{ top: 5, right: 20, bottom: 5, left: 0 }}>
-    <Line type="monotone" dataKey="investment" stroke="#8884d8" />
-    <CartesianGrid stroke="#ccc" strokeDasharray="5 5" />
-    <XAxis dataKey="month" />
-    <YAxis />
-  </LineChart>
+        <div className='mt-10 grid grid-cols-1 md:grid-cols-2'>
+            <div>
+                <LineChart width={500} height={300} data={data} margin={{ top: 5, right: 20, bottom: 5, left: 0 }}>
+                    <Line type="monotone" dataKey="investment" stroke="#8884d8" />
+                    <CartesianGrid stroke="#ccc" strokeDasharray="5 5" />
+                    <XAxis dataKey="month" />
+                    <YAxis />
+                </LineChart>
+            </div>
+            <div>
+                <PieChart width={500} height={300}>
+                    <Pie data={data} dataKey="investment" nameKey="month" cx="50%" cy="50%" outerRadius={50} fill="#8884d8" />
+                    <Pie data={data} dataKey="investment" nameKey="month" cx="50%" cy="50%" innerRadius={60} outerRadius={80} fill="#82ca9d" label />
+                </PieChart>
+            </div>
         </div>
     );
 };

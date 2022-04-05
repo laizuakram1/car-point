@@ -24,11 +24,13 @@ const Home = () => {
                 </div>
 
             </div>
-            <div className='review'>
-                <h2 className='text-center text-4xl'> Our Client Say!</h2>
-                {
-                    reviews.slice(0, 3).map(review => <HomeReview review ={review}></HomeReview>)
-                }
+            <div className='mb-16'>
+                <h2 className='text-center text-4xl mb-4'> Our Client Say!</h2>
+                <div className='grid gap-0 grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
+                    {
+                        reviews.slice(0, 3).map(review => <HomeReview review={review}></HomeReview>)
+                    }
+                </div>
             </div>
 
         </div>

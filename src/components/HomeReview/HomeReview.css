@@ -1,0 +1,17 @@
+.review{
+    width:250px;
+    border-radius:20px;
+    margin:10px;
+    text-align: center;
+    padding:10px;
+    box-shadow: 10px 10px 20px 5px grey;
+   
+}
+.review img{
+   height:100px;
+   width:100px;
+   object-fit: cover;
+    margin:auto;
+    border-radius:50%;
+}
+

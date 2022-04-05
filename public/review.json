@@ -3,7 +3,7 @@
         "name": "millat",
         "Ratting" : 5,
         "comment": "this is very comfortable vehicle",
-        "image" : "https://static.toiimg.com/thumb/msid-60256603/60256603.jpg"
+        "image" : "https://img.freepik.com/free-photo/portrait-african-american-man_23-2149072214.jpg?w=740&t=st=1649157367~exp=1649157967~hmac=2264b26f5afc35dd58cdb48698e23b802cbcf3084b19493fea3de2e5cde9bbef"
         
         
     },
@@ -11,28 +11,32 @@
         "name": "zilani",
         "comment": "this is amazing vehicle",
         "Ratting": 4,
-        "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGlbCdQT_Rl0A8-MP_qOR_8fKkvyxNGKo6DA&usqp=CAU"
+        "image" : "https://img.freepik.com/free-photo/portrait-handsome-european-male-student-has-gentle-smile-face-happy-hear-pleasant-news-stands-delighted-wears-round-spectacles-orange-jumper_273609-45004.jpg?w=740&t=st=1649157391~exp=1649157991~hmac=78bb4e8fdf5cdd9a4f085de444209d88283cf43c0ca28c92da8be0548c5d8c80"
     
     },
     {
         "name": "Devid",
         "comment": "Just awesome, i am soo happy buy it.",
-        "Ratting": 5
+        "Ratting": 5,
+        "image":"https://img.freepik.com/free-photo/photo-attractive-bearded-young-man-with-cherful-expression-makes-okay-gesture-with-both-hands-likes-something-dressed-red-casual-t-shirt-poses-against-white-wall-gestures-indoor_273609-16239.jpg?t=st=1649157355~exp=1649157955~hmac=8b5c3deea0875ad4fdf193b07314c10eaeda6e3491e7d6e17b6f61aa03de20a7&w=740"
     },
     {
         "name": "John",
         "comment": "soo comfortable and best for family tour.",
-        "Ratting": 5
+        "Ratting": 5,
+        "image": "https://img.freepik.com/free-photo/smiling-woman-writing-notes-tablet-digital-device_53876-111318.jpg?w=740&t=st=1649157463~exp=1649158063~hmac=ce90363524a2468627f269205fc349a2de68fbb727fa2f85f5ad25903be783af"
     },
     {
         "name": "Milar",
         "comment": "one of the best choice for summer vacation.",
-        "Ratting": 4
+        "Ratting": 4,
+        "image": "https://img.freepik.com/free-photo/beautiful-female-with-blonde-long-hair-has-confident-expression-wears-casual-sweater-isolated-pink-wall-adorable-young-woman-has-attractive-look-poses-waist-up-shot_273609-2438.jpg?w=740&t=st=1649157508~exp=1649158108~hmac=3c4a0e67e36317e3930f7added604a6bfca290bbac04c7085879089c5b9b6f85"
     },
     {
         "name": "Borzah yankey",
         "comment": "this vehicle is very poweful and comfortable",
-        "Ratting": 5
+        "Ratting": 5,
+        "image": "https://img.freepik.com/free-photo/pretty-brunette-japanese-woman-has-long-hair-wears-vivid-orange-warm-sweater-holds-coffee-go_273609-33334.jpg?w=740&t=st=1649157542~exp=1649158142~hmac=0a531d734c5b0f1fb1fc0ff4f50ed84d3c26ad1322cdb077d57f01c7b1dd82de"
     }
     
 ]

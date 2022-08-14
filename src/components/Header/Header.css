@@ -1,8 +1,9 @@
 .Link{
-    background-color: #ddd;
+    background-color: #5499C7;
     padding:10px;
     align-items: center;
     text-align: center;
+    color:white;
 }
 .active-link{
     color:red;

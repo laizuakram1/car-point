@@ -1,6 +1,6 @@
 # Laizu car point
 
-live link: https://bespoke-dusk-95e1b9.netlify.app/
+live link: https://velvety-cajeta-d6033e.netlify.app/
 
 ## Description
 - use react and javascript

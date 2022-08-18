@@ -3,10 +3,10 @@
 live link: https://bespoke-dusk-95e1b9.netlify.app/
 
 ## Description
--use react and javascript
--css framework for tailwind
--responsive
--create chart
+- use react and javascript
+- css framework for tailwind
+- responsive
+- create chart
 
 In the project directory, you can run:
 
